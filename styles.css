@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  .header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background: #333;
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar ul li a:hover {
+    color: #feb47b;
+  }
+  
+  /* Blog Post Styles */
+  .content {
+    margin: 2rem 0;
+  }
+  
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .post {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h2 {
+    margin-top: 0;
+  }
+  
+  .post p {
+    margin: 0.5rem 0;
+  }
+  
+  .post a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #ff7e5f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .post a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0 0;
+  }
+  
+  .footer ul li {
+    margin: 0 1rem;
+  }
+  
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #feb47b;
+  }
+  
